@@ -1,15 +1,11 @@
 const { assert } = require('console')
 
-const mapFunction = str => str.split(' ').map(val => {
-    switch (val) {
-        case 'A': return 'ROCK'
-        case 'B': return 'PAPER'
-        case 'C': return 'SCISSORS'
-        case 'X': return 'LOSE'
-        case 'Y': return 'DRAW'
-        case 'Z': return 'WIN'
-    }
-})
+const transformInputMap = {
+    A: 'ROCK', B: 'PAPER', C: 'SCISSORS',
+    X: 'LOSE', Y: 'DRAW', Z: 'WIN'
+}
+
+const mapFunction = str => str.split(' ').map(val => transformInputMap[val])
 const games = require('../file-reader.js').readFile('input.txt', '\n', mapFunction, v => v.length > 0)
 
 const outcomePointsMap = {

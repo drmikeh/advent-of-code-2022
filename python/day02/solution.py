@@ -65,7 +65,6 @@ def solve(puzzle_input):
 
 if __name__ == "__main__":
     for path in sys.argv[1:]:
-        # print(f"{path}:")
         with open(pathlib.Path(path)) as f:
             games = [line.split() for line in f.readlines()]
         solutions = solve(games)

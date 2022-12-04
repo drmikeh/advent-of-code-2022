@@ -7,15 +7,15 @@ do
     echo "===== ${dir:0:-1} ====="
     if [ -f part1.py ]
     then
-        python3 part1.py
+        python3 part1.py input.txt
     fi
     if [ -f part2.py ]
     then
-        python3 part2.py
+        python3 part2.py input.txt
     fi
     if [ -f solution.py ]
     then
-        python3 solution.py
+        python3 solution.py input.txt
     fi
     cd ..
 done

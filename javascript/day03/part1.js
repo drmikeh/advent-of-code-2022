@@ -6,7 +6,7 @@ function findDuplicate(sack) {
     const middleIndex = sack.length / 2
     const first = sack.slice(0, middleIndex)
     const second = sack.slice(middleIndex)
-    const set = first.split('').reduce((set, letter) => { set.add(letter); return set }, new Set())
+    const set = new Set(first.split(''))
     const secondLetters = second.split('')
     for (const letter of secondLetters) {
         if (set.has(letter)) { return letter }

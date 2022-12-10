@@ -10,3 +10,5 @@
 |   6   |     Tuning Trouble      | Non-repeating characters, sets       |
 |   7   | No Space Left On Device | trees, recursion, depth first search |
 |   8   |   Treetop Tree House    | 2D arrays, summing rows and columns  |
+|   9   |       Rope Bridge       | arrays, sets, 2d grid coordinates    |
+|  10   |    Cathode-Ray Tube     |                                      |

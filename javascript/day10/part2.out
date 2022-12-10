@@ -1,0 +1,2080 @@
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 1, X: 1 }
+drawPixel: { pixel: 0, row: 0, col: 0, sprite: 1 }
+#                                       
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 15 } }
+{ clock: 2, X: 1 }
+drawPixel: { pixel: 1, row: 0, col: 1, sprite: 1 }
+##                                      
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 3, X: 16 }
+drawPixel: { pixel: 2, row: 0, col: 2, sprite: 16 }
+##.                                     
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -11 } }
+{ clock: 4, X: 16 }
+drawPixel: { pixel: 3, row: 0, col: 3, sprite: 16 }
+##..                                    
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 5, X: 5 }
+drawPixel: { pixel: 4, row: 0, col: 4, sprite: 5 }
+##..#                                   
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 6 } }
+{ clock: 6, X: 5 }
+drawPixel: { pixel: 5, row: 0, col: 5, sprite: 5 }
+##..##                                  
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 7, X: 11 }
+drawPixel: { pixel: 6, row: 0, col: 6, sprite: 11 }
+##..##.                                 
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -3 } }
+{ clock: 8, X: 11 }
+drawPixel: { pixel: 7, row: 0, col: 7, sprite: 11 }
+##..##..                                
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 9, X: 8 }
+drawPixel: { pixel: 8, row: 0, col: 8, sprite: 8 }
+##..##..#                               
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 10, X: 8 }
+drawPixel: { pixel: 9, row: 0, col: 9, sprite: 8 }
+##..##..##                              
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 11, X: 13 }
+drawPixel: { pixel: 10, row: 0, col: 10, sprite: 13 }
+##..##..##.                             
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 12, X: 13 }
+drawPixel: { pixel: 11, row: 0, col: 11, sprite: 13 }
+##..##..##..                            
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 13, X: 12 }
+drawPixel: { pixel: 12, row: 0, col: 12, sprite: 12 }
+##..##..##..#                           
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -8 } }
+{ clock: 14, X: 12 }
+drawPixel: { pixel: 13, row: 0, col: 13, sprite: 12 }
+##..##..##..##                          
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 15, X: 4 }
+drawPixel: { pixel: 14, row: 0, col: 14, sprite: 4 }
+##..##..##..##.                         
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 13 } }
+{ clock: 16, X: 4 }
+drawPixel: { pixel: 15, row: 0, col: 15, sprite: 4 }
+##..##..##..##..                        
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 17, X: 17 }
+drawPixel: { pixel: 16, row: 0, col: 16, sprite: 17 }
+##..##..##..##..#                       
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 4 } }
+{ clock: 18, X: 17 }
+drawPixel: { pixel: 17, row: 0, col: 17, sprite: 17 }
+##..##..##..##..##                      
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 19, X: 21 }
+drawPixel: { pixel: 18, row: 0, col: 18, sprite: 21 }
+##..##..##..##..##.                     
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 20, X: 21 }
+drawPixel: { pixel: 19, row: 0, col: 19, sprite: 21 }
+##..##..##..##..##..                    
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 21, X: 21 }
+drawPixel: { pixel: 20, row: 0, col: 20, sprite: 21 }
+##..##..##..##..##..#                   
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 22, X: 20 }
+drawPixel: { pixel: 21, row: 0, col: 21, sprite: 20 }
+##..##..##..##..##..##                  
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 23, X: 20 }
+drawPixel: { pixel: 22, row: 0, col: 22, sprite: 20 }
+##..##..##..##..##..##.                 
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 24, X: 25 }
+drawPixel: { pixel: 23, row: 0, col: 23, sprite: 25 }
+##..##..##..##..##..##..                
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 25, X: 25 }
+drawPixel: { pixel: 24, row: 0, col: 24, sprite: 25 }
+##..##..##..##..##..##..#               
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 26, X: 24 }
+drawPixel: { pixel: 25, row: 0, col: 25, sprite: 24 }
+##..##..##..##..##..##..##              
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 27, X: 24 }
+drawPixel: { pixel: 26, row: 0, col: 26, sprite: 24 }
+##..##..##..##..##..##..##.             
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 28, X: 29 }
+drawPixel: { pixel: 27, row: 0, col: 27, sprite: 29 }
+##..##..##..##..##..##..##..            
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 29, X: 29 }
+drawPixel: { pixel: 28, row: 0, col: 28, sprite: 29 }
+##..##..##..##..##..##..##..#           
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 30, X: 28 }
+drawPixel: { pixel: 29, row: 0, col: 29, sprite: 28 }
+##..##..##..##..##..##..##..##          
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 31, X: 28 }
+drawPixel: { pixel: 30, row: 0, col: 30, sprite: 28 }
+##..##..##..##..##..##..##..##.         
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 32, X: 33 }
+drawPixel: { pixel: 31, row: 0, col: 31, sprite: 33 }
+##..##..##..##..##..##..##..##..        
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 33, X: 33 }
+drawPixel: { pixel: 32, row: 0, col: 32, sprite: 33 }
+##..##..##..##..##..##..##..##..#       
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 34, X: 32 }
+drawPixel: { pixel: 33, row: 0, col: 33, sprite: 32 }
+##..##..##..##..##..##..##..##..##      
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 35, X: 32 }
+drawPixel: { pixel: 34, row: 0, col: 34, sprite: 32 }
+##..##..##..##..##..##..##..##..##.     
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 36, X: 37 }
+drawPixel: { pixel: 35, row: 0, col: 35, sprite: 37 }
+##..##..##..##..##..##..##..##..##..    
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 37, X: 37 }
+drawPixel: { pixel: 36, row: 0, col: 36, sprite: 37 }
+##..##..##..##..##..##..##..##..##..#   
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 38, X: 36 }
+drawPixel: { pixel: 37, row: 0, col: 37, sprite: 36 }
+##..##..##..##..##..##..##..##..##..##  
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -35 } }
+{ clock: 39, X: 36 }
+drawPixel: { pixel: 38, row: 0, col: 38, sprite: 36 }
+##..##..##..##..##..##..##..##..##..##. 
+                                        
+                                        
+                                        
+                                        
+                                        
+{ clock: 40, X: 1 }
+drawPixel: { pixel: 39, row: 0, col: 39, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+                                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 41, X: 1 }
+drawPixel: { pixel: 40, row: 1, col: 0, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+#                                       
+                                        
+                                        
+                                        
+                                        
+{ clock: 42, X: 2 }
+drawPixel: { pixel: 41, row: 1, col: 1, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+##                                      
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 24 } }
+{ clock: 43, X: 2 }
+drawPixel: { pixel: 42, row: 1, col: 2, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###                                     
+                                        
+                                        
+                                        
+                                        
+{ clock: 44, X: 26 }
+drawPixel: { pixel: 43, row: 1, col: 3, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###.                                    
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -19 } }
+{ clock: 45, X: 26 }
+drawPixel: { pixel: 44, row: 1, col: 4, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###..                                   
+                                        
+                                        
+                                        
+                                        
+{ clock: 46, X: 7 }
+drawPixel: { pixel: 45, row: 1, col: 5, sprite: 7 }
+##..##..##..##..##..##..##..##..##..##..
+###...                                  
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 47, X: 7 }
+drawPixel: { pixel: 46, row: 1, col: 6, sprite: 7 }
+##..##..##..##..##..##..##..##..##..##..
+###...#                                 
+                                        
+                                        
+                                        
+                                        
+{ clock: 48, X: 8 }
+drawPixel: { pixel: 47, row: 1, col: 7, sprite: 8 }
+##..##..##..##..##..##..##..##..##..##..
+###...##                                
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 16 } }
+{ clock: 49, X: 8 }
+drawPixel: { pixel: 48, row: 1, col: 8, sprite: 8 }
+##..##..##..##..##..##..##..##..##..##..
+###...###                               
+                                        
+                                        
+                                        
+                                        
+{ clock: 50, X: 24 }
+drawPixel: { pixel: 49, row: 1, col: 9, sprite: 24 }
+##..##..##..##..##..##..##..##..##..##..
+###...###.                              
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -11 } }
+{ clock: 51, X: 24 }
+drawPixel: { pixel: 50, row: 1, col: 10, sprite: 24 }
+##..##..##..##..##..##..##..##..##..##..
+###...###..                             
+                                        
+                                        
+                                        
+                                        
+{ clock: 52, X: 13 }
+drawPixel: { pixel: 51, row: 1, col: 11, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...                            
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 53, X: 13 }
+drawPixel: { pixel: 52, row: 1, col: 12, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...#                           
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 54, X: 13 }
+drawPixel: { pixel: 53, row: 1, col: 13, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...##                          
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 21 } }
+{ clock: 55, X: 13 }
+drawPixel: { pixel: 54, row: 1, col: 14, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###                         
+                                        
+                                        
+                                        
+                                        
+{ clock: 56, X: 34 }
+drawPixel: { pixel: 55, row: 1, col: 15, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###.                        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -15 } }
+{ clock: 57, X: 34 }
+drawPixel: { pixel: 56, row: 1, col: 16, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###..                       
+                                        
+                                        
+                                        
+                                        
+{ clock: 58, X: 19 }
+drawPixel: { pixel: 57, row: 1, col: 17, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...                      
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 59, X: 19 }
+drawPixel: { pixel: 58, row: 1, col: 18, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...#                     
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 60, X: 19 }
+drawPixel: { pixel: 59, row: 1, col: 19, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...##                    
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -3 } }
+{ clock: 61, X: 19 }
+drawPixel: { pixel: 60, row: 1, col: 20, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###                   
+                                        
+                                        
+                                        
+                                        
+{ clock: 62, X: 16 }
+drawPixel: { pixel: 61, row: 1, col: 21, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###.                  
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 9 } }
+{ clock: 63, X: 16 }
+drawPixel: { pixel: 62, row: 1, col: 22, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###..                 
+                                        
+                                        
+                                        
+                                        
+{ clock: 64, X: 25 }
+drawPixel: { pixel: 63, row: 1, col: 23, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...                
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 65, X: 25 }
+drawPixel: { pixel: 64, row: 1, col: 24, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...#               
+                                        
+                                        
+                                        
+                                        
+{ clock: 66, X: 26 }
+drawPixel: { pixel: 65, row: 1, col: 25, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...##              
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -3 } }
+{ clock: 67, X: 26 }
+drawPixel: { pixel: 66, row: 1, col: 26, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###             
+                                        
+                                        
+                                        
+                                        
+{ clock: 68, X: 23 }
+drawPixel: { pixel: 67, row: 1, col: 27, sprite: 23 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###.            
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 8 } }
+{ clock: 69, X: 23 }
+drawPixel: { pixel: 68, row: 1, col: 28, sprite: 23 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###..           
+                                        
+                                        
+                                        
+                                        
+{ clock: 70, X: 31 }
+drawPixel: { pixel: 69, row: 1, col: 29, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...          
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 71, X: 31 }
+drawPixel: { pixel: 70, row: 1, col: 30, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...#         
+                                        
+                                        
+                                        
+                                        
+{ clock: 72, X: 32 }
+drawPixel: { pixel: 71, row: 1, col: 31, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...##        
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 5 } }
+{ clock: 73, X: 32 }
+drawPixel: { pixel: 72, row: 1, col: 32, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###       
+                                        
+                                        
+                                        
+                                        
+{ clock: 74, X: 37 }
+drawPixel: { pixel: 73, row: 1, col: 33, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###.      
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 75, X: 37 }
+drawPixel: { pixel: 74, row: 1, col: 34, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###..     
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 76, X: 37 }
+drawPixel: { pixel: 75, row: 1, col: 35, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...    
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 77, X: 37 }
+drawPixel: { pixel: 76, row: 1, col: 36, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...#   
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 78, X: 37 }
+drawPixel: { pixel: 77, row: 1, col: 37, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...##  
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 79, X: 37 }
+drawPixel: { pixel: 78, row: 1, col: 38, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...### 
+                                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -36 } }
+{ clock: 80, X: 37 }
+drawPixel: { pixel: 79, row: 1, col: 39, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+                                        
+                                        
+                                        
+                                        
+{ clock: 81, X: 1 }
+drawPixel: { pixel: 80, row: 2, col: 0, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+#                                       
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 82, X: 1 }
+drawPixel: { pixel: 81, row: 2, col: 1, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+##                                      
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 83, X: 1 }
+drawPixel: { pixel: 82, row: 2, col: 2, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+###                                     
+                                        
+                                        
+                                        
+{ clock: 84, X: 2 }
+drawPixel: { pixel: 83, row: 2, col: 3, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####                                    
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 7 } }
+{ clock: 85, X: 2 }
+drawPixel: { pixel: 84, row: 2, col: 4, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####.                                   
+                                        
+                                        
+                                        
+{ clock: 86, X: 9 }
+drawPixel: { pixel: 85, row: 2, col: 5, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####..                                  
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 87, X: 9 }
+drawPixel: { pixel: 86, row: 2, col: 6, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####...                                 
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 88, X: 9 }
+drawPixel: { pixel: 87, row: 2, col: 7, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....                                
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 89, X: 9 }
+drawPixel: { pixel: 88, row: 2, col: 8, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....#                               
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 90, X: 9 }
+drawPixel: { pixel: 89, row: 2, col: 9, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....##                              
+                                        
+                                        
+                                        
+{ clock: 91, X: 11 }
+drawPixel: { pixel: 90, row: 2, col: 10, sprite: 11 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....###                             
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 6 } }
+{ clock: 92, X: 11 }
+drawPixel: { pixel: 91, row: 2, col: 11, sprite: 11 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####                            
+                                        
+                                        
+                                        
+{ clock: 93, X: 17 }
+drawPixel: { pixel: 92, row: 2, col: 12, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####.                           
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 94, X: 17 }
+drawPixel: { pixel: 93, row: 2, col: 13, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####..                          
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 95, X: 17 }
+drawPixel: { pixel: 94, row: 2, col: 14, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####...                         
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 96, X: 17 }
+drawPixel: { pixel: 95, row: 2, col: 15, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....                        
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 97, X: 17 }
+drawPixel: { pixel: 96, row: 2, col: 16, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....#                       
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 98, X: 17 }
+drawPixel: { pixel: 97, row: 2, col: 17, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....##                      
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 99, X: 17 }
+drawPixel: { pixel: 98, row: 2, col: 18, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....###                     
+                                        
+                                        
+                                        
+{ clock: 100, X: 18 }
+drawPixel: { pixel: 99, row: 2, col: 19, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####                    
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 101, X: 18 }
+drawPixel: { pixel: 100, row: 2, col: 20, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####.                   
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 102, X: 18 }
+drawPixel: { pixel: 101, row: 2, col: 21, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####..                  
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 7 } }
+{ clock: 103, X: 18 }
+drawPixel: { pixel: 102, row: 2, col: 22, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####...                 
+                                        
+                                        
+                                        
+{ clock: 104, X: 25 }
+drawPixel: { pixel: 103, row: 2, col: 23, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....                
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 105, X: 25 }
+drawPixel: { pixel: 104, row: 2, col: 24, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....#               
+                                        
+                                        
+                                        
+{ clock: 106, X: 26 }
+drawPixel: { pixel: 105, row: 2, col: 25, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....##              
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 107, X: 26 }
+drawPixel: { pixel: 106, row: 2, col: 26, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....###             
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -13 } }
+{ clock: 108, X: 26 }
+drawPixel: { pixel: 107, row: 2, col: 27, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####            
+                                        
+                                        
+                                        
+{ clock: 109, X: 13 }
+drawPixel: { pixel: 108, row: 2, col: 28, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####.           
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 13 } }
+{ clock: 110, X: 13 }
+drawPixel: { pixel: 109, row: 2, col: 29, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####..          
+                                        
+                                        
+                                        
+{ clock: 111, X: 26 }
+drawPixel: { pixel: 110, row: 2, col: 30, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####...         
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 7 } }
+{ clock: 112, X: 26 }
+drawPixel: { pixel: 111, row: 2, col: 31, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....        
+                                        
+                                        
+                                        
+{ clock: 113, X: 33 }
+drawPixel: { pixel: 112, row: 2, col: 32, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....#       
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 114, X: 33 }
+drawPixel: { pixel: 113, row: 2, col: 33, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....##      
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 115, X: 33 }
+drawPixel: { pixel: 114, row: 2, col: 34, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....###     
+                                        
+                                        
+                                        
+{ clock: 116, X: 34 }
+drawPixel: { pixel: 115, row: 2, col: 35, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####    
+                                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: -33 } }
+{ clock: 117, X: 34 }
+drawPixel: { pixel: 116, row: 2, col: 36, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####.   
+                                        
+                                        
+                                        
+{ clock: 118, X: 1 }
+drawPixel: { pixel: 117, row: 2, col: 37, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####..  
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 119, X: 1 }
+drawPixel: { pixel: 118, row: 2, col: 38, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####... 
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 120, X: 1 }
+drawPixel: { pixel: 119, row: 2, col: 39, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+                                        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 121, X: 1 }
+drawPixel: { pixel: 120, row: 3, col: 0, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#                                       
+                                        
+                                        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 122, X: 1 }
+drawPixel: { pixel: 121, row: 3, col: 1, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+##                                      
+                                        
+                                        
+{ clock: 123, X: 3 }
+drawPixel: { pixel: 122, row: 3, col: 2, sprite: 3 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+###                                     
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 124, X: 3 }
+drawPixel: { pixel: 123, row: 3, col: 3, sprite: 3 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+####                                    
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 125, X: 3 }
+drawPixel: { pixel: 124, row: 3, col: 4, sprite: 3 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####                                   
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 126, X: 3 }
+drawPixel: { pixel: 125, row: 3, col: 5, sprite: 3 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.                                  
+                                        
+                                        
+	 { instr: { code: 'addx', value: 8 } }
+{ clock: 127, X: 3 }
+drawPixel: { pixel: 126, row: 3, col: 6, sprite: 3 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####..                                 
+                                        
+                                        
+{ clock: 128, X: 11 }
+drawPixel: { pixel: 127, row: 3, col: 7, sprite: 11 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####...                                
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 129, X: 11 }
+drawPixel: { pixel: 128, row: 3, col: 8, sprite: 11 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####....                               
+                                        
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 130, X: 11 }
+drawPixel: { pixel: 129, row: 3, col: 9, sprite: 11 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....                              
+                                        
+                                        
+{ clock: 131, X: 10 }
+drawPixel: { pixel: 130, row: 3, col: 10, sprite: 10 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#                             
+                                        
+                                        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 132, X: 10 }
+drawPixel: { pixel: 131, row: 3, col: 11, sprite: 10 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....##                            
+                                        
+                                        
+{ clock: 133, X: 12 }
+drawPixel: { pixel: 132, row: 3, col: 12, sprite: 12 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....###                           
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 134, X: 12 }
+drawPixel: { pixel: 133, row: 3, col: 13, sprite: 12 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....####                          
+                                        
+                                        
+{ clock: 135, X: 13 }
+drawPixel: { pixel: 134, row: 3, col: 14, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####                         
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 136, X: 13 }
+drawPixel: { pixel: 135, row: 3, col: 15, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.                        
+                                        
+                                        
+	 { instr: { code: 'addx', value: 17 } }
+{ clock: 137, X: 13 }
+drawPixel: { pixel: 136, row: 3, col: 16, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####..                       
+                                        
+                                        
+{ clock: 138, X: 30 }
+drawPixel: { pixel: 137, row: 3, col: 17, sprite: 30 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####...                      
+                                        
+                                        
+	 { instr: { code: 'addx', value: -9 } }
+{ clock: 139, X: 30 }
+drawPixel: { pixel: 138, row: 3, col: 18, sprite: 30 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####....                     
+                                        
+                                        
+{ clock: 140, X: 21 }
+drawPixel: { pixel: 139, row: 3, col: 19, sprite: 21 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....                    
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 141, X: 21 }
+drawPixel: { pixel: 140, row: 3, col: 20, sprite: 21 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#                   
+                                        
+                                        
+{ clock: 142, X: 22 }
+drawPixel: { pixel: 141, row: 3, col: 21, sprite: 22 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....##                  
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 143, X: 22 }
+drawPixel: { pixel: 142, row: 3, col: 22, sprite: 22 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....###                 
+                                        
+                                        
+{ clock: 144, X: 23 }
+drawPixel: { pixel: 143, row: 3, col: 23, sprite: 23 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....####                
+                                        
+                                        
+	 { instr: { code: 'addx', value: -3 } }
+{ clock: 145, X: 23 }
+drawPixel: { pixel: 144, row: 3, col: 24, sprite: 23 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####               
+                                        
+                                        
+{ clock: 146, X: 20 }
+drawPixel: { pixel: 145, row: 3, col: 25, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.              
+                                        
+                                        
+	 { instr: { code: 'addx', value: 11 } }
+{ clock: 147, X: 20 }
+drawPixel: { pixel: 146, row: 3, col: 26, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####..             
+                                        
+                                        
+{ clock: 148, X: 31 }
+drawPixel: { pixel: 147, row: 3, col: 27, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####...            
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 149, X: 31 }
+drawPixel: { pixel: 148, row: 3, col: 28, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####....           
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 150, X: 31 }
+drawPixel: { pixel: 149, row: 3, col: 29, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....          
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 151, X: 31 }
+drawPixel: { pixel: 150, row: 3, col: 30, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#         
+                                        
+                                        
+{ clock: 152, X: 32 }
+drawPixel: { pixel: 151, row: 3, col: 31, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....##        
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 153, X: 32 }
+drawPixel: { pixel: 152, row: 3, col: 32, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....###       
+                                        
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 154, X: 32 }
+drawPixel: { pixel: 153, row: 3, col: 33, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....####      
+                                        
+                                        
+{ clock: 155, X: 33 }
+drawPixel: { pixel: 154, row: 3, col: 34, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####     
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 156, X: 33 }
+drawPixel: { pixel: 155, row: 3, col: 35, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.    
+                                        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 157, X: 33 }
+drawPixel: { pixel: 156, row: 3, col: 36, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####..   
+                                        
+                                        
+	 { instr: { code: 'addx', value: -13 } }
+{ clock: 158, X: 33 }
+drawPixel: { pixel: 157, row: 3, col: 37, sprite: 33 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####...  
+                                        
+                                        
+{ clock: 159, X: 20 }
+drawPixel: { pixel: 158, row: 3, col: 38, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.... 
+                                        
+                                        
+	 { instr: { code: 'addx', value: -19 } }
+{ clock: 160, X: 20 }
+drawPixel: { pixel: 159, row: 3, col: 39, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+                                        
+                                        
+{ clock: 161, X: 1 }
+drawPixel: { pixel: 160, row: 4, col: 0, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+#                                       
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 162, X: 1 }
+drawPixel: { pixel: 161, row: 4, col: 1, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+##                                      
+                                        
+{ clock: 163, X: 2 }
+drawPixel: { pixel: 162, row: 4, col: 2, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+###                                     
+                                        
+	 { instr: { code: 'addx', value: 3 } }
+{ clock: 164, X: 2 }
+drawPixel: { pixel: 163, row: 4, col: 3, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+####                                    
+                                        
+{ clock: 165, X: 5 }
+drawPixel: { pixel: 164, row: 4, col: 4, sprite: 5 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+#####                                   
+                                        
+	 { instr: { code: 'addx', value: 26 } }
+{ clock: 166, X: 5 }
+drawPixel: { pixel: 165, row: 4, col: 5, sprite: 5 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######                                  
+                                        
+{ clock: 167, X: 31 }
+drawPixel: { pixel: 166, row: 4, col: 6, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######.                                 
+                                        
+	 { instr: { code: 'addx', value: -30 } }
+{ clock: 168, X: 31 }
+drawPixel: { pixel: 167, row: 4, col: 7, sprite: 31 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######..                                
+                                        
+{ clock: 169, X: 1 }
+drawPixel: { pixel: 168, row: 4, col: 8, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######...                               
+                                        
+	 { instr: { code: 'addx', value: 12 } }
+{ clock: 170, X: 1 }
+drawPixel: { pixel: 169, row: 4, col: 9, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######....                              
+                                        
+{ clock: 171, X: 13 }
+drawPixel: { pixel: 170, row: 4, col: 10, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######.....                             
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 172, X: 13 }
+drawPixel: { pixel: 171, row: 4, col: 11, sprite: 13 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......                            
+                                        
+{ clock: 173, X: 12 }
+drawPixel: { pixel: 172, row: 4, col: 12, sprite: 12 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......#                           
+                                        
+	 { instr: { code: 'addx', value: 3 } }
+{ clock: 174, X: 12 }
+drawPixel: { pixel: 173, row: 4, col: 13, sprite: 12 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......##                          
+                                        
+{ clock: 175, X: 15 }
+drawPixel: { pixel: 174, row: 4, col: 14, sprite: 15 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......###                         
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 176, X: 15 }
+drawPixel: { pixel: 175, row: 4, col: 15, sprite: 15 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......####                        
+                                        
+{ clock: 177, X: 16 }
+drawPixel: { pixel: 176, row: 4, col: 16, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......#####                       
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 178, X: 16 }
+drawPixel: { pixel: 177, row: 4, col: 17, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######                      
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 179, X: 16 }
+drawPixel: { pixel: 178, row: 4, col: 18, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######.                     
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 180, X: 16 }
+drawPixel: { pixel: 179, row: 4, col: 19, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######..                    
+                                        
+	 { instr: { code: 'addx', value: -9 } }
+{ clock: 181, X: 16 }
+drawPixel: { pixel: 180, row: 4, col: 20, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######...                   
+                                        
+{ clock: 182, X: 7 }
+drawPixel: { pixel: 181, row: 4, col: 21, sprite: 7 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######....                  
+                                        
+	 { instr: { code: 'addx', value: 18 } }
+{ clock: 183, X: 7 }
+drawPixel: { pixel: 182, row: 4, col: 22, sprite: 7 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######.....                 
+                                        
+{ clock: 184, X: 25 }
+drawPixel: { pixel: 183, row: 4, col: 23, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......                
+                                        
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 185, X: 25 }
+drawPixel: { pixel: 184, row: 4, col: 24, sprite: 25 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......#               
+                                        
+{ clock: 186, X: 26 }
+drawPixel: { pixel: 185, row: 4, col: 25, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......##              
+                                        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 187, X: 26 }
+drawPixel: { pixel: 186, row: 4, col: 26, sprite: 26 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......###             
+                                        
+{ clock: 188, X: 28 }
+drawPixel: { pixel: 187, row: 4, col: 27, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......####            
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 189, X: 28 }
+drawPixel: { pixel: 188, row: 4, col: 28, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......#####           
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 190, X: 28 }
+drawPixel: { pixel: 189, row: 4, col: 29, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######          
+                                        
+	 { instr: { code: 'addx', value: 9 } }
+{ clock: 191, X: 28 }
+drawPixel: { pixel: 190, row: 4, col: 30, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######.         
+                                        
+{ clock: 192, X: 37 }
+drawPixel: { pixel: 191, row: 4, col: 31, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######..        
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 193, X: 37 }
+drawPixel: { pixel: 192, row: 4, col: 32, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######...       
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 194, X: 37 }
+drawPixel: { pixel: 193, row: 4, col: 33, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######....      
+                                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 195, X: 37 }
+drawPixel: { pixel: 194, row: 4, col: 34, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######.....     
+                                        
+	 { instr: { code: 'addx', value: -1 } }
+{ clock: 196, X: 37 }
+drawPixel: { pixel: 195, row: 4, col: 35, sprite: 37 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......    
+                                        
+{ clock: 197, X: 36 }
+drawPixel: { pixel: 196, row: 4, col: 36, sprite: 36 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......#   
+                                        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 198, X: 36 }
+drawPixel: { pixel: 197, row: 4, col: 37, sprite: 36 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......##  
+                                        
+{ clock: 199, X: 38 }
+drawPixel: { pixel: 198, row: 4, col: 38, sprite: 38 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......### 
+                                        
+	 { instr: { code: 'addx', value: -37 } }
+{ clock: 200, X: 38 }
+drawPixel: { pixel: 199, row: 4, col: 39, sprite: 38 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+                                        
+{ clock: 201, X: 1 }
+drawPixel: { pixel: 200, row: 5, col: 0, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#                                       
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 202, X: 1 }
+drawPixel: { pixel: 201, row: 5, col: 1, sprite: 1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+##                                      
+{ clock: 203, X: 2 }
+drawPixel: { pixel: 202, row: 5, col: 2, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+###                                     
+	 { instr: { code: 'addx', value: 3 } }
+{ clock: 204, X: 2 }
+drawPixel: { pixel: 203, row: 5, col: 3, sprite: 2 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+####                                    
+{ clock: 205, X: 5 }
+drawPixel: { pixel: 204, row: 5, col: 4, sprite: 5 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#####                                   
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 206, X: 5 }
+drawPixel: { pixel: 205, row: 5, col: 5, sprite: 5 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+######                                  
+	 { instr: { code: 'addx', value: 15 } }
+{ clock: 207, X: 5 }
+drawPixel: { pixel: 206, row: 5, col: 6, sprite: 5 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######                                 
+{ clock: 208, X: 20 }
+drawPixel: { pixel: 207, row: 5, col: 7, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.                                
+	 { instr: { code: 'addx', value: -21 } }
+{ clock: 209, X: 20 }
+drawPixel: { pixel: 208, row: 5, col: 8, sprite: 20 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######..                               
+{ clock: 210, X: -1 }
+drawPixel: { pixel: 209, row: 5, col: 9, sprite: -1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######...                              
+	 { instr: { code: 'addx', value: 22 } }
+{ clock: 211, X: -1 }
+drawPixel: { pixel: 210, row: 5, col: 10, sprite: -1 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######....                             
+{ clock: 212, X: 21 }
+drawPixel: { pixel: 211, row: 5, col: 11, sprite: 21 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.....                            
+	 { instr: { code: 'addx', value: -6 } }
+{ clock: 213, X: 21 }
+drawPixel: { pixel: 212, row: 5, col: 12, sprite: 21 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######......                           
+{ clock: 214, X: 15 }
+drawPixel: { pixel: 213, row: 5, col: 13, sprite: 15 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......                          
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 215, X: 15 }
+drawPixel: { pixel: 214, row: 5, col: 14, sprite: 15 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#                         
+{ clock: 216, X: 16 }
+drawPixel: { pixel: 215, row: 5, col: 15, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......##                        
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 217, X: 16 }
+drawPixel: { pixel: 216, row: 5, col: 16, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......###                       
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 218, X: 16 }
+drawPixel: { pixel: 217, row: 5, col: 17, sprite: 16 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......####                      
+{ clock: 219, X: 18 }
+drawPixel: { pixel: 218, row: 5, col: 18, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#####                     
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 220, X: 18 }
+drawPixel: { pixel: 219, row: 5, col: 19, sprite: 18 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......######                    
+{ clock: 221, X: 19 }
+drawPixel: { pixel: 220, row: 5, col: 20, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######                   
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 222, X: 19 }
+drawPixel: { pixel: 221, row: 5, col: 21, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.                  
+	 { instr: { code: 'addx', value: -10 } }
+{ clock: 223, X: 19 }
+drawPixel: { pixel: 222, row: 5, col: 22, sprite: 19 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######..                 
+{ clock: 224, X: 9 }
+drawPixel: { pixel: 223, row: 5, col: 23, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######...                
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 225, X: 9 }
+drawPixel: { pixel: 224, row: 5, col: 24, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######....               
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 226, X: 9 }
+drawPixel: { pixel: 225, row: 5, col: 25, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.....              
+	 { instr: { code: 'addx', value: 20 } }
+{ clock: 227, X: 9 }
+drawPixel: { pixel: 226, row: 5, col: 26, sprite: 9 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######......             
+{ clock: 228, X: 29 }
+drawPixel: { pixel: 227, row: 5, col: 27, sprite: 29 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......            
+	 { instr: { code: 'addx', value: 1 } }
+{ clock: 229, X: 29 }
+drawPixel: { pixel: 228, row: 5, col: 28, sprite: 29 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#           
+{ clock: 230, X: 30 }
+drawPixel: { pixel: 229, row: 5, col: 29, sprite: 30 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......##          
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 231, X: 30 }
+drawPixel: { pixel: 230, row: 5, col: 30, sprite: 30 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......###         
+{ clock: 232, X: 32 }
+drawPixel: { pixel: 231, row: 5, col: 31, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......####        
+	 { instr: { code: 'addx', value: 2 } }
+{ clock: 233, X: 32 }
+drawPixel: { pixel: 232, row: 5, col: 32, sprite: 32 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#####       
+{ clock: 234, X: 34 }
+drawPixel: { pixel: 233, row: 5, col: 33, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......######      
+	 { instr: { code: 'addx', value: -6 } }
+{ clock: 235, X: 34 }
+drawPixel: { pixel: 234, row: 5, col: 34, sprite: 34 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######     
+{ clock: 236, X: 28 }
+drawPixel: { pixel: 235, row: 5, col: 35, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######.    
+	 { instr: { code: 'addx', value: -11 } }
+{ clock: 237, X: 28 }
+drawPixel: { pixel: 236, row: 5, col: 36, sprite: 28 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######..   
+{ clock: 238, X: 17 }
+drawPixel: { pixel: 237, row: 5, col: 37, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######...  
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 239, X: 17 }
+drawPixel: { pixel: 238, row: 5, col: 38, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######.... 
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 240, X: 17 }
+drawPixel: { pixel: 239, row: 5, col: 39, sprite: 17 }
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######.....
+	 { instr: { code: 'noop', value: NaN } }
+{ clock: 241, X: 17 }
+drawPixel: { pixel: 0, row: 0, col: 0, sprite: 17 }
+.#..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######.....

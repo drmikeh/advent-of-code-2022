@@ -38,7 +38,7 @@ function drawPixel(pixel, sprite) {
     if (col >= sprite - 1 && col <= sprite + 1) {
         CRT[row][col] = '#'
     } else {
-        CRT[row][col] = '.'
+        CRT[row][col] = ' '
     }
  }
 
@@ -73,4 +73,4 @@ String.prototype.hashCode = function() {
     return hash + 2147483647 + 1;
 };
 const hash = CRT.reduce((str, row) => str + row.join(''), '').hashCode()
-assert(hash === 546232107)
+assert(hash === 3784316381)
